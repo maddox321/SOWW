@@ -15,5 +15,5 @@
    * [MPI_INIT_THREAD](mpiinit_thread.md)
    * [MPI_IRECV](mpiirecv.md)
    * [Napisz kod OpenMP + MPI - suma 1/(1+1) + 1(2+2) + ...](napisz_kod_openmp_+_mpi_-_suma_11+1_+_12+2_+.md)
-   * Jak się komunikować z procesem stworzonym przez MPI_COMM_SPAWN
+   * [Jak się komunikować z procesem stworzonym przez MPI_COMM_SPAWN](jak_sie_komunikowac_z_procesem_stworzonym_przez_mpicommspawn.md)
 
