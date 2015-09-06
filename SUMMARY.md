@@ -8,4 +8,5 @@
 * [Prawo Amdahla](prawo_amdahla.md)
 * [Prawo Gustafsona](prawo_gustafsona.md)
 * [Metafora kierowcy](metafora_kierowcy.md)
+* MPI odebranie komunikatu o nieznanym rozmiarze
 
