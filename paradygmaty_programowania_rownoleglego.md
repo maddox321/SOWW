@@ -1,0 +1,2 @@
+# Paradygmaty programowania równoległego
+
