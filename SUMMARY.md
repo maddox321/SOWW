@@ -16,7 +16,7 @@
    * [MPI_IRECV](mpiirecv.md)
    * [Napisz kod OpenMP + MPI - suma 1/(1+1) + 1(2+2) + ...](napisz_kod_openmp_+_mpi_-_suma_11+1_+_12+2_+.md)
    * [Jak się komunikować z procesem stworzonym przez MPI_COMM_SPAWN](jak_sie_komunikowac_z_procesem_stworzonym_przez_mpicommspawn.md)
-   * Typy funkcji send w MPI
+   * [Typy funkcji send w MPI](typy_funkcji_send_w_mpi.md)
 * [Związek pomiędzy liczbą procesorów a speedupem](zwiazek_pomiedzy_liczba_procesorow_a_speedupem.md)
 * [Kiedy przyśpieszenie ponad liniowe/ super liniowe?](kiedy_przyspieszenie_ponad_liniowe_super_liniowe.md)
 * [Parametry wydajnościowe w komunikacje klastrów](parametry_wydajnosciowe_w_komunikacje_klastrow.md)
