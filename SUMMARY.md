@@ -7,4 +7,5 @@
 * [Zapisywanie i wznawianie stanu działania](zapisywanie_i_wznawianie_stanu_dzialania.md)
 * [Prawo Amdahla](prawo_amdahla.md)
 * [Prawo Gustafsona](prawo_gustafsona.md)
+* Metafora kierowcy
 
