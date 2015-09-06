@@ -14,5 +14,5 @@
    * [MPI odebranie komunikatu o nieznanym rozmiarze](mpi_odebranie_komunikatu_o_nieznanym_rozmiarze.md)
    * [MPI_INIT_THREAD](mpiinit_thread.md)
    * [MPI_IRECV](mpiirecv.md)
-   * Napisz kod OpenMP + MPI - suma 1/(1+1) + 1(2+2) + ...
+   * [Napisz kod OpenMP + MPI - suma 1/(1+1) + 1(2+2) + ...](napisz_kod_openmp_+_mpi_-_suma_11+1_+_12+2_+.md)
 
