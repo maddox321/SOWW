@@ -1,0 +1,5 @@
+# Zapisywanie i wznawianie stanu działania
+
+1. poziom kodu programu (ang. userguided) wspomagany przez użytkownika programista dostarcza funkcje pakujące i rozpakowujące stan procesu. Jest to rozwiązanie wymagające interwencji ze strony programisty, jest jednak potencjalnie najwydajniejsze ze względu na możliwość spakowania jedynie danych niezbędnych do kontynuacji działania.
+2. poziom jądra (ang. kernellevel) poziom, który pozwala na zupełnie przezroczyste dla użytkownika przerwanie i wznowienie działania procesu wadą jest konieczność zapisania i odczytania praktycznie całego obrazu procesu, w ogólności nie jest możliwe wznowienie działania na innej architekturze, wymaga często również instalacji z prawami administratora systemu,
+3. poziom użytkownika (ang. userlevel) polega na dołączeniu bibliotek do aplikacji, bez konieczności rekompilacji, posiada z reguły szereg ograniczeń odnośnie otwartych plików, wykorzystania pamięci współdzielonej, łączy komunikacyjnych itp.
