@@ -1,5 +1,5 @@
 # Summary
 
 * [Wstęp](README.md)
-* [First Chapter](chapter1.md)
+* [Co oznaczają przedrostki](chapter1.md)
 
