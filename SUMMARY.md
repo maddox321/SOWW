@@ -13,5 +13,5 @@
 * [Wyjaśnij jak zaimplementować w kodzie procesu (C+MPI) odbieranie dowolnych wiadomości od procesów o rankach 2,3 i 8.](wyjasnij_jak_zaimplementowac_w_kodzie_procesu_c+mpi_odbieranie_dowolnych_wiadomosci_od_procesow_o_rankach_2,3_i_8.md)
 * [MPI](mpi.md)
    * [MPI_INIT_THREAD](mpiinit_thread.md)
-   * MPI_IRECV
+   * [MPI_IRECV](mpiirecv.md)
 
