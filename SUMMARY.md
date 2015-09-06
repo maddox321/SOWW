@@ -18,5 +18,5 @@
    * [Jak się komunikować z procesem stworzonym przez MPI_COMM_SPAWN](jak_sie_komunikowac_z_procesem_stworzonym_przez_mpicommspawn.md)
 * [Związek pomiędzy liczbą procesorów a speedupem](zwiazek_pomiedzy_liczba_procesorow_a_speedupem.md)
 * [Kiedy przyśpieszenie ponad liniowe/ super liniowe?](kiedy_przyspieszenie_ponad_liniowe_super_liniowe.md)
-* Parametry wydajnościowe w komunikacje klastrów
+* [Parametry wydajnościowe w komunikacje klastrów](parametry_wydajnosciowe_w_komunikacje_klastrow.md)
 
