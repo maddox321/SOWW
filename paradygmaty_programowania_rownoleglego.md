@@ -12,3 +12,11 @@ Różnice pomiędzy ww paradygmatami pod względem:
 * dekompozycji danych w jaki sposób dane wejściowe dzielone są na fragmenty
 * alokację danych w jaki sposób fragmenty danych po dekompozycji przydzielane są do poszczególnych procesorów.
 
+|  | master-slave | SPMD | przetwarzanie potokowe | dziel i zwyciezaj |
+| -- | -- | -- | -- | -- |
+| dekompozycja danych | Statyczna | Statyczna lub Dynamiczna | Statyczna | Dynamiczna |
+| alokacja danych | Statyczna lub Dynamiczna | Statyczna | Statyczna | Dynamiczna |
+
+
+
+
