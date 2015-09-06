@@ -9,4 +9,5 @@
 * [Prawo Gustafsona](prawo_gustafsona.md)
 * [Metafora kierowcy](metafora_kierowcy.md)
 * [MPI odebranie komunikatu o nieznanym rozmiarze](mpi_odebranie_komunikatu_o_nieznanym_rozmiarze.md)
+* Wyjaśnij jak zaimplementować barierę pomiędzy procesami w MPI_COMM_WORLD za pomocą funkcji MPI_SEND oraz MPI_RECV.
 
