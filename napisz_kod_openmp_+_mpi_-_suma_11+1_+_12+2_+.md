@@ -36,30 +36,3 @@ if(!rank)
 MPI_Finalize();
 return 0;
 ```
-
-Pseudokod:
-```
-Master:
-1. Wyślij blokująco dane do wszystkich slave'ów
-2. Rozpocznij nasłuchiwanie od wszystkich slave'ów
-3. Wyślij nieblokująco dane do wszystkich slave'ów
-4. Czekaj na dane od slave'a X
-5. Zapisz dane slave'a X
-6. Rozpocznij nasłuchiwanie na dane od slave'a X nieblokująco, jesli przetwarza on jeszcze jakies dane lub planujesz mu cos wysłać
-7. Wyślij kolejne dane (jeśli są jeszcze jakieś) do slave'a X nieblokująco
-8. Idź do 4. jesli oczekujesz jeszcze na jakies dane
-9. Wyślij slave'om komunikat o zakonczeniu obliczen.
-10. Zredukuj dane i zwróć wynik.
-
-Slave:
-1. Rozpocznij nasłuchiwanie blokujące na dane -> bufor2.
-2. bufor := bufor2;
-3. Jeśli bufor == koniec -> goto 9;
-4. Rozpocznij nasłuchiwanie nieblokujące na dane -> bufor2.
-5. przetwarzaj dane z bufor.
-6. Wyślij wynik nieblokująco.
-7. Czekaj na odebranie bufor2 (powinno tam już coś być). 
-8. goto 2.
-9. KONIEC
-
-```
