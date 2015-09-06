@@ -1,20 +1,17 @@
 # Prawo Amdahla
 
-Zakłada że czas wykonywania programu inicjującego na pojedyńczym procesorze jest stały.
-Przyspieszenie ocenia jakość zaimplementowanych konstrukcji i technik równoległości.
+Prawo Amdahla wychodzi z założenia, że duży matematyczny czy inżynierski problem typowo składa się z takich części, które udaje się zrównoleglić i z takich, dla których nie jest to możliwe. 
 
-Speed-up SA
+Prawo Amdahla stanowi, iż fragmenty programu, które nie mogą być zrównoleglone ograniczają możliwe do osiągnięcia przyspieszenie całego procesu. 
 
-SA=t(1)/t(N)
+Ten związek jest definiowany przez następujące równanie: 
 
-t(1) – the execution time of application A running on a parallel machine with one processor
+S = 1/(1-P), 
+gdzie: 
+* S jest maksymalnym, możliwym do osiągnięcia przyspieszeniem programu, 
+* P jest ułamkiem, który określa jaką część obliczeń można "zrównoleglić". 
 
-t(N) – the execution time of application A running on the same parallel machine with N processors.
 
-Let us assume that: s_i denotes the i-th part of the program's instructions to be executed sequentially r_j denotes the j-th part of the program's instructions to be executed in parallel
+Na przykład, jeśli sekwencyjna część programu stanowi 10% całkowitego czasu potrzebnego na jego wykonanie (1-P = 0.1) to można osiągnąć nie więcej niż 10-krotne przyspieszenie, niezależnie od ilości procesorów jakie zostaną dodane. Tworzy to odgórny limit przydatności dodawania większej ilości jednostek obliczeniowych. 
 
-Let us define: s=s_0+s_1+…+s_k and
-
-r=r_0+r_1+…+r_l.
-
-Then S=(s+r)/(s+r/N)=1/(s+r/N).
+Jeśli zadanie nie może być podzielone z uwagi na ograniczenia wynikające z sekwencyjności problemu, dodanie mocy przetwarzania nie wpłynie na czas jego wykonania.
